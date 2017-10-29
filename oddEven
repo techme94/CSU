@@ -1,0 +1,26 @@
+import java.util.Scanner;
+   
+      public class oddEven{
+      
+      public static void main( String []args){
+ boolean isEven; 
+ int i;
+   
+   Scanner keyboard = new Scanner (System.in);
+      System.out.println("Choose a number");
+      i = keyboard.nextInt();
+  
+   isEven = (i%2 == 0); /* I used % to divide, the number the user has chosen, by 2
+                           and is used to determin if a number is odd or even
+                           by simply dividing and determing if the number has a
+                           remainder*/
+                          
+  if(isEven){
+    System.out.print(i +" is Even");
+      } 
+   
+  else{
+    System.out.print(i +" is Odd");
+   }
+ }
+}
