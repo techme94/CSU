@@ -1,0 +1,23 @@
+import java.util.Scanner; 
+public class LetsCount
+{
+     public static void main (String []args)
+
+   {
+
+     int numCount = 0; // numCount is the number the user will input.
+      int i = 0; // The i represents how many times it will iterate in a for loop.
+      Scanner keyboard= new Scanner (System.in);
+      
+                  System.out.println( "Choose a number");
+                  numCount=keyboard.nextInt();
+               
+            for ( i = numCount; i >= 0; --i)
+            {
+         
+               System.out.print (i + " ");
+      
+         System.out.print ("");  
+    }
+  }
+}
